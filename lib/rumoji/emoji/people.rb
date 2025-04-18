@@ -244,6 +244,20 @@ module Rumoji
       self.new("\u{1F468 200D 2764 FE0F 200D 1F48B 200D 1F468}", [:"man-kiss-man"], "MAN KISS MAN"),
       self.new("\u{1F469 200D 2764 FE0F 200D 1F469}", [:"woman-heart-woman"], "WOMAN HEART WOMAN"),
       self.new("\u{1F469 200D 2764 FE0F 200D 1F48B 200D 1F469}", [:"woman-kiss-woman"], "WOMAN KISS WOMAN"),
+      self.new("\u{1FAE0}", [:melting_face]),
+      self.new("\u{1F97A}", [:pleading_face]),
+      self.new("\u{1F635}", [:face_with_crossed_out_eyes]),
+      self.new("\u{1FAE1}", [:saluting_face]),
+      self.new("\u{1FAE8}", [:shaking_face]),
+      self.new("\u{1FAE4}", [:face_with_diagonal_mouce]),
+      self.new("\u{1FAF6}", [:heart_hands]),
+      self.new("\u{1FA77}", [:pink_heart]),
+      self.new("\u{1FA75}", [:light_blue_heart]),
+      self.new("\u{1FA76}", [:grey_heart]),
+      self.new("\u{1F970}", [:smiling_face_with_hearts]),
+      self.new("\u{1F973}", [:partying_face]),
+      self.new("\u{2764 FE0F 200D 1F525}", [:heart_on_fire]),
+      self.new("\u{1F929}", [:star_struck]),
     ]
   end
 end
