@@ -312,6 +312,7 @@ module Rumoji
       self.new("\u{1F96E}", [:moon_cake]),
       self.new("\u{1F96F}", [:bagel]),
       self.new("\u{1F9C1}", [:cupcake]),
+      self.new("\u{1FAA9}", [:mirror_ball]),
     ]
   end
 end
