@@ -252,6 +252,8 @@ module Rumoji
       self.new("\u{1FAE4}", [:face_with_diagonal_mouce]),
       self.new("\u{1FAF6}", [:heart_hands]),
       self.new("\u{1FA77}", [:pink_heart]),
+      self.new("\u{1FA75}", [:light_blue_heart]),
+      self.new("\u{1FA76}", [:grey_heart]),
       self.new("\u{1F970}", [:smiling_face_with_hearts]),
       self.new("\u{1F973}", [:partying_face]),
       self.new("\u{2764 FE0F 200D 1F525}", [:heart_on_fire]),
