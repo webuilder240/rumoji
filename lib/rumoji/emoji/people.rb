@@ -256,7 +256,6 @@ module Rumoji
       self.new("\u{1FA76}", [:grey_heart]),
       self.new("\u{1F970}", [:smiling_face_with_hearts]),
       self.new("\u{1F973}", [:partying_face]),
-      self.new("\u{2764 FE0F 200D 1F525}", [:heart_on_fire]),
       self.new("\u{1F929}", [:star_struck]),
     ]
   end

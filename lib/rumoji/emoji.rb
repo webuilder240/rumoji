@@ -62,10 +62,16 @@ module Rumoji
     autoload :PLACES, 'rumoji/emoji/places'
     autoload :SYMBOLS, 'rumoji/emoji/symbols'
     autoload :NEWMOJI, 'rumoji/emoji/newmoji'
+    autoload :COMBINE, 'rumoji/emoji/combine'
 
-    ALL = PEOPLE | NATURE | OBJECTS | PLACES | SYMBOLS | FOOD | NEWMOJI
+    ALL = COMBINE | PEOPLE | NATURE | OBJECTS | PLACES | SYMBOLS | FOOD | NEWMOJI
+    SINGLE_EMOJI = PEOPLE | NATURE | OBJECTS | PLACES | SYMBOLS | FOOD | NEWMOJI
 
-    ALL_REGEXP = Regexp.new(ALL.map(&:string).join('|'))
+    JOINED_SINGLE_EMOJI = SINGLE_EMOJI.map(&:string).join('|')
+    JOINED_COMBINE_EMOJI = COMBINE.map(&:string).join('|')
+    JOINED_ALL_EMOJI = JOINED_COMBINE_EMOJI << '|' << JOINED_SINGLE_EMOJI
+
+    ALL_REGEXP = Regexp.new(JOINED_ALL_EMOJI)
 
     SYMBOL_LOOKUP = ALL.each.with_object({}) do |emoji, lookup|
       emoji.symbols.each do |symbol|
