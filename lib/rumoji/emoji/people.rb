@@ -121,7 +121,6 @@ module Rumoji
       self.new("\u{1F44A}", [:punch, :facepunch], "FISTED HAND SIGN"), # "punch
       self.new("\u{1F91D}", [:handshake], "HANDSHAKE"),
       self.new("\u{270A}" , [:fist], "RAISED FIST"),
-      self.new("\u{270C}" , [:v], "VICTORY HAND"),
       self.new("\u{1F44B}", [:wave], "WAVING HAND SIGN"),
       self.new("\u{270B}" , [:hand], "RAISED HAND"),
       self.new("\u{1F450}", [:open_hands], "OPEN HANDS SIGN"),
